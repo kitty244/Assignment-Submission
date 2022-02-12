@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DAY 4 Assignment</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	
+	// Question 1: create an  array of 5 objects & all the objects should have 4 properties [it's up to you what data you wanna take(students, avengers,user)]
+
+
+	
+
+
+	
+
+var student=[
+     {
+		first_name: "Joshua" ,
+		last_name: "Abdullahi" ,
+		age: 27  ,
+		Course: "Computer-Science" ,
+	},
+      {
+		first_name: "Becky" ,
+		last_name: "Paul" ,
+		age: 24  ,
+		Course: "Mechanical Engineering" ,
+	},
+	   {
+		first_name: "Nelson" ,
+		last_name: "Giwa",
+		age: 28  ,
+		Course: "Law" ,
+	},
+	    {
+		first_name: "Tobe" ,
+		last_name: "Nwaigbo" ,
+		age: 27  ,
+		Course:  "Business adminstration" ,
+	},
+	   {
+		first_name: "Ifeanyi" ,
+		last_name: "Nwaigbo" ,
+		age: 26  ,
+		Course: "Pharmacology" ,
+	}
+
+]
+
+
+
+	// Question 2: Print two properties from that object using: for loop and also by using forEach loop
+
+     //for loop
+      console.log("for loop............")
+     for (var i = 0;i<student.length ; i++) 
+     {
+        console.log(student[i].first_name,student[i].last_name);	
+     }
+
+     //forEach loop
+     console.log("forEach loop............");
+     
+     student.forEach(
+     	function(first_name,last_name) 
+     {
+        console.log(first_name,last_name);
+        }
+     
+     );
+
+
+
+
+</script>
+</body>
+</html>
