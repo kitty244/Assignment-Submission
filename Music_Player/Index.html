@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!--Web Gradients-->
+	<link rel="stylesheet" type="text/css" href="Style/webgradients.css">
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="Style/Bootstrap/css/mdb.css"><!--
+	<link rel="stylesheet" type="text/css" href="Style/Bootstrap/css/bootstrap.css">-->
+	<!--Web Gradients-->
+	<link rel="stylesheet" type="text/css" href="Style/fontawesome/css/all.css">
+	
+</head>
+<body>
+     <section class="container">
+
+     <div class="section_1">
+     	<!-- Sidebar -->
+     <div class="sidebar">
+       <header>
+        MUSIFY
+      </header>
+    <nav class="sidebar-nav">
+      <ul>
+
+        <li>
+          <a href="index.html"><i class="fas fa-music"></i> <span class="">Songs</span></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-file"></i> <span class="">Albums</span></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-microphone"></i> <span class="">Artists</span></a>
+        </li>
+         
+      </ul>
+    </nav>
+  </div>
+     </div>
+     <div class="section_2">
+     	<div class="Audios_header">
+     			
+     		</div>
+     	<div class="Audios" id="Audios">
+     		
+
+     		<!--Music 1--> 
+     		<div class="Audios_music ">
+     				<img class="Audio_img" src="Thumbnails/Cover.jpg">
+     			<div class="Audio_detail">
+     				<h1 class="Audio_title">
+     					<p class="Audio_name">7 Rings</p>
+     					<p class="Audio_artist">Ariana Grande</p>
+     				</h1>
+     				<button class="btn btn-rounded" onclick="playAudio(1)">Play</button>
+     			</div>
+     		</div>
+
+     		<!--Music 2--> 
+     		<div class="Audios_music ">
+     				<img class="Audio_img" src="Thumbnails/Rain.jpg">
+     			<div class="Audio_detail">
+     				<h1 class="Audio_title">
+     					<p class="Audio_name">Rain</p>
+     					<p class="Audio_artist">Aj Tracey ft Aitch</p>
+     				</h1>
+     				<button class="btn btn-rounded" onclick="playAudio(2)">Play</button>
+     			</div>
+     		</div>
+
+     		<!--Music 3--> 
+     		<div class="Audios_music ">
+     				<img class="Audio_img" src="Thumbnails/Dreamer.jpg">
+     			<div class="Audio_detail">
+     				<h1 class="Audio_title">
+     					<p class="Audio_name">Dreamer</p>
+     					<p class="Audio_artist">Axwell Ingrosso </p>
+     				</h1>
+     				<button class="btn btn-rounded" onclick="playAudio(3)">Play</button>
+     			</div>
+     		</div>
+
+     		<!--Music 4--> 
+     		<div class="Audios_music ">
+     				<img class="Audio_img" src="Thumbnails/west_ten.jfif">
+     			<div class="Audio_detail">
+     				<h1 class="Audio_title">
+     					<p class="Audio_name">West Ten</p>
+     					<p class="Audio_artist">Aj Tracey & Mabel</p>
+     				</h1>
+     				<button class="btn btn-rounded" onclick="playAudio(4)">Play</button>
+     			</div>
+     		</div>
+
+
+     	</div>
+     </div>
+       <div class="section_3">
+       	<div class="Play">
+                <img class="thumbnail" id="thumbnail" src="./Thumbnails/Start.PNG">
+               
+               <p class="audio_player_title" id="audio_player_title"></p>
+
+            <audio id="audio_player" class="audio_player" src="./Audio/" controls></audio>
+            
+       	</div>
+     	
+     </div>
+</section>
+	
+
+
+     <script type="text/javascript" src="index.js"></script>
+     <script type="text/javascript" src="Style/Bootstrap/js/mdb.js"></script>
+     <script type="text/javascript" src="Style/Bootstrap/js/bootstrap.js"></script>
+     <script type="text/javascript" src="Style/Bootstrap/js/jquery.min.js"></script>
+     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+     <script type="text/javascript" src="Style/fontawesome/js/all.js"></script>
+</body>
+</html>
